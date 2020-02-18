@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7058ffb53148fd2ef0d4ca3571bb222e",
+    "packages": [
+        {
+            "name": "magenest/core",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenest-dev/module-core.git",
+                "reference": "0df4858174a84a3ef6e52e0525d12a9eeee51ecd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenest-dev/module-core/zipball/0df4858174a84a3ef6e52e0525d12a9eeee51ecd",
+                "reference": "0df4858174a84a3ef6e52e0525d12a9eeee51ecd",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magenest\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Magenest Core",
+            "time": "2019-11-05T06:26:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
