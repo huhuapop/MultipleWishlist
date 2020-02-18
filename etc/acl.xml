@@ -7,13 +7,13 @@
                <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Magenest_MultipleWishlist::multiplewishlist_config" title="Multiple Wishlist" />
+                            <resource id="Magenest_MultipleWishlist::multiplewishlist_config" title="Multiple Quotelist" />
                         </resource>
                     </resource>
                 </resource>
                 <resource id="Magento_Reports::report">
-                    <resource id="Magenest_MultipleWishlist::Report_MultipleWishlist" title="Report MultipleWishlist">
-                        <resource id="Magenest_MultipleWishlist::Report_Wishlist" title="Report Wishlist" />
+                    <resource id="Magenest_MultipleWishlist::Report_MultipleWishlist" title="Report MultipleQuotelist">
+                        <resource id="Magenest_MultipleWishlist::Report_Wishlist" title="Report Quotelist" />
                     </resource>
                 </resource>
             </resource>

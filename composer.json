@@ -1,6 +1,6 @@
 {
   "name": "magenest/module-multiple-wishlist",
-  "description": "Multiple Wishlist extension by Magenest",
+  "description": "Multiple Quotelist extension by Magenest",
   "require": {
     "magenest/core": "*"
   },

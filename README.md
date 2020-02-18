@@ -1,4 +1,4 @@
-# Magenest Multiple Wishlist
+# Magenest Multiple Quotelist
 
 ## User guide
 - If you have trouble installing this extension, please visit: http://www.confluence.izysync.com/display/DOC/1.+Multiple+Wishlist+Installation+Guide

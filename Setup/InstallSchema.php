@@ -64,7 +64,7 @@ class InstallSchema implements InstallSchemaInterface
             [],
             'Last updated date'
         )->setComment(
-            'Multiple Wishlist Table'
+            'Multiple Quotelist Table'
         );
         $installer->getConnection()->createTable($table);
 
@@ -156,7 +156,7 @@ class InstallSchema implements InstallSchemaInterface
             ['nullable' => true],
             'Value'
         )->setComment(
-            'Multiple Wishlist Item Option Table'
+            'Multiple Quotelist Item Option Table'
         );
         $installer->getConnection()->createTable($table);
 

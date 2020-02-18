@@ -15,7 +15,7 @@
         <section id="multiplewishlist" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
                  showInStore="1">
             <class>separator-top</class>
-            <label>Multiple Wishlist</label>
+            <label>Multiple Quotelist</label>
             <tab>magenest_all</tab>
             <resource>Magenest_MultipleWishlist::multiplewishlist_config</resource>
             <group id="general" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
@@ -44,9 +44,9 @@
                 </field>
                 <field id="number" translate="label" type="text" sortOrder="40" showInDefault="1" showInStore="1"
                        showInWebsite="1" canRestore="1">
-                    <label>Maximum Number Of Wishlist</label>
+                    <label>Maximum Number Of Quotelist</label>
                     <validate>validate-zero-or-greater</validate>
-                    <comment>This number wish list customer can create</comment>
+                    <comment>This number quote list customer can create</comment>
                     <depends>
                         <field id="active">1</field>
                     </depends>
@@ -64,7 +64,7 @@
                 </field>
                 <field id="time" translate="label" type="text" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Interval Time</label>
-                    <comment>Enter the number to check product in wishlist for X</comment>
+                    <comment>Enter the number to check product in quotelist for X</comment>
                     <validate>validate-zero-or-greater validate-no-empty</validate>
                 </field>
                 <field id="schedule" translate="label" type="text" sortOrder="25" showInDefault="0" showInWebsite="0" showInStore="0">
