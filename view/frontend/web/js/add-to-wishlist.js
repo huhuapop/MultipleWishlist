@@ -8,7 +8,7 @@ define([
     "use strict";
     var isAjaxRunning = false;
     var modalOptions = {
-        title: 'Add to Wishlist',
+        title: 'Add to Quotelist',
         buttons: false
     };
     var continueButton = $("button#mwl-continue");

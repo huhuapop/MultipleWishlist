@@ -15,12 +15,12 @@
     <a href="#"
        class="action towishlist"
        style="cursor: pointer;"
-       title="<?php echo $block->escapeHtml(__('Add to Wish List')); ?>"
-       aria-label="<?php echo $block->escapeHtml(__('Add to Wish List')); ?>"
+       title="<?php echo $block->escapeHtml(__('Add to Quote List')); ?>"
+       aria-label="<?php echo $block->escapeHtml(__('Add to Quote List')); ?>"
        data-post='<?php /* @escapeNotVerified */
             echo $block->getAddToWishlistParams($block->getProduct()); ?>'
        data-action="add-to-wishlist"
        role="button">
-        <span><?php /* @escapeNotVerified */ echo __('Add to Wish List') ?></span>
+        <span><?php /* @escapeNotVerified */ echo __('Add to Quote List') ?></span>
     </a>
 <?php endif; ?>

@@ -7,7 +7,7 @@ $wishlistCount = (int)$block->getCountWishlist()+1;
 ?>
 
 <script>
-    require([
+    require([wi
         'Magenest_MultipleWishlist/js/add-to-wishlist'
     ], function () {
         'use strict';
@@ -34,7 +34,7 @@ $wishlistCount = (int)$block->getCountWishlist()+1;
 <?php if ($wishlistCount<$numberWishList) {?>
         <input name="wishlist_radio" type="radio" value="new" id="wl-rd-new">
         <label id="labelRadio" for="wl-rd-new">New Wishlist</label>
-        <input id="new-wishlist-name" name="new_wishlist_name" type="text" placeholder="Wishlist name"  disabled>
+        <input id="new-wishlist-name" name="new_wishlist_name" type="text" placeholder="Quotelist name"  disabled>
         <?php }else {?>
     <label>The number of wishlists exceed the limitation(<?=$numberWishList?>)</label>
         <?php }?>
@@ -63,7 +63,7 @@ $wishlistCount = (int)$block->getCountWishlist()+1;
         <?php if ($wishlistCount<$numberWishList) {?>
             <input name="wishlist_select" type="radio" value="new" id="wl-rd-movenew">
             <label id="labelRadio" for="wl-rd-new">New Wishlist</label>
-            <input id="new_wishlist" name="new_wishlist_name" type="text" placeholder="Wishlist name"  disabled>
+            <input id="new_wishlist" name="new_wishlist_name" type="text" placeholder="Quotelist name"  disabled>
         <?php }else {?>
             <label>The number of wishlists exceed the limitation(<?=$numberWishList?>)</label>
         <?php }?>
