@@ -58,7 +58,7 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
     <input type="number" value="<?= $numberWishList ?>" id="numberWishList" hidden="hidden">
     <input type="number" value="<?= $count ?>" id="countWishList" hidden="hidden">
     <input value="<?= $wishlistCookieId ?>" class="wishlistIdcookie" hidden="hidden">
-    <?php/** Form Add New Wish List*/?>
+    <?php/** Form Add New Quote List*/?>
     <div>
         <form id="add-new" style="margin-bottom: 30px;"
               action="<?php echo($block->getBaseUrl() . 'multiplewishlist/index/add'); ?>">
@@ -66,7 +66,7 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
             <input name="wishlist" type="hidden" value="new">
             <input id="new-name" style="width: 25%; margin-right: 3%"  name="newName" type="text" placeholder="Name New Wish List"
                    maxlength="20">
-            <button id="add-wishlist" class="action primary" type="submit"><?= __('Add New Wish List') ?></button>
+            <button id="add-wishlist" class="action primary" type="submit"><?= __('Add New Quote List') ?></button>
             <span hidden="hidden" id="error-view">error</span>
             <span hidden="hidden" id="error-modal">error</span>
         </span>

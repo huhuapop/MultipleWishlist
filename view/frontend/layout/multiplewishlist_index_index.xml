@@ -9,7 +9,7 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <update handle="customer_account"/>
     <head>
-        <title>My Wish List</title>
+        <title>My Quote List</title>
         <css src="Magenest_MultipleWishlist::css/view.css"/>
         <script src="Magenest_MultipleWishlist::js/view.js"/>
         <script src="Magenest_MultipleWishlist::js/move-item.js"/>
@@ -23,7 +23,7 @@
     <body>
         <referenceBlock name="page.main.title">
             <action method="setPageTitle">
-                <argument translate="true" name="title" xsi:type="string">My Wish List</argument>
+                <argument translate="true" name="title" xsi:type="string">My Quote List</argument>
             </action>
         </referenceBlock>
         <referenceContainer name="content">
